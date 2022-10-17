@@ -19,7 +19,7 @@ const Header = () => {
 
             {/* Left */}
             <div className="flex items-center space-x-4 justify-end text-gray-600">
-                <p className='hover:text-red-400 cursor-pointer'>Become a host</p>
+                <p className='hidden md:inline hover:text-red-400 cursor-pointer'>Become a host</p>
                 <GlobeAltIcon className="h-6 cursor-pointer hover:text-red-400 "/>
 
                 <div className='flex p-2 space-x-2 items-center border-2 rounded-full cursor-pointer'>
